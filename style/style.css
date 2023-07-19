@@ -82,19 +82,20 @@ body {
     margin-bottom: 40px;
 }
 
-.accordion-questions {
-    display: block;
-    width: 100%;
-    position: relative;
-}
-
 .accordion-questions h3 {
     color: var(--Very-dark-grayish-blue);
     font-weight: 400;
 }
 
+.question-answeker {
+    display: block;
+    width: 100%;
+    position: relative;
+}
 .accordion-questions img {
     display: block;
     position: absolute;
     right: 0;
+    top: 8px;
 }
+
