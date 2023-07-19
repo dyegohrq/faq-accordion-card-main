@@ -31,20 +31,37 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--Soft-blue);
     font-size: 12px;
     font-family: var(--font);
+    background-color: var(--Soft-blue);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 
 .wrapper {
+    width: 375px;
+    background: var(--Light-grayish-blue);
+    border-radius: 20px;
+    padding: 10px;
     display: flex;
-    max-width: 375px;
-    max-height: 600px;
-    background-color: var(--Light-grayish-blue);
-    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     align-items: center;
-    justify-content: center;
-    margin: auto;
+    justify-content: center;    
+}
+
+._image-wrapper-inner{
+    width: 240px;
+    height: 240px;
+    background-image: url(../images/illustration-woman-online-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    left: 60px;
+    top: -135px;
 }
