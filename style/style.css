@@ -87,6 +87,11 @@ body {
     font-weight: 400;
     cursor: pointer;
     margin: 10px 60px 20px 0px;
+    transition: color .3s ease;
+}
+
+.accordion-questions h3:hover {
+    color: var(--Soft-red);
 }
 
 .question-answeker {
