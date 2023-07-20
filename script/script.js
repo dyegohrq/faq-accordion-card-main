@@ -1,10 +1,10 @@
-const question = document.getElementsByClassName('question-answeker')
-const content = document.getElementsByClassName('content')
+document.querySelectorAll(".question").forEach((question) => question.addEventListener("click", () => {
+    if (question.parentNode.classList.contains("active")) {
+        question.parentNode.classList.toggle("active")
+    } else {
+        document.querySelectorAll(".question").forEach(question => question.parentNode.classList.remove("active"))
 
-question.addEventListener("click", () => {
-    activate();
-})
+        question.parentNode.classList.add("active")
+    }
+}))
 
-function activate() {
-    
-}
