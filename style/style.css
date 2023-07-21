@@ -33,7 +33,7 @@
 body {
     font-size: 12px;
     font-family: var(--font);
-    background-color: var(--Soft-blue);
+    background: linear-gradient(200deg , var(--Soft-violet), var(--Soft-blue));
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -75,6 +75,10 @@ body {
     width: 240px;
     height: 340px;
     top: 20px;
+}
+
+.box {
+    display: none;
 }
 
 .content h1 {
@@ -133,4 +137,8 @@ body {
     height: 1px;
     background-color: rgba(120, 120, 135, 0.453);
     margin-bottom: 20px;
+}
+
+@media screen and (min-width: 750px) {
+    
 }
