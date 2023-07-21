@@ -137,8 +137,15 @@ body {
     height: 1px;
     background-color: rgba(120, 120, 135, 0.453);
     margin-bottom: 20px;
-}
+} 
 
 @media screen and (min-width: 750px) {
-    
+    body {
+        background: var(--Soft-blue);
+    }
+
+    .wrapper {
+        min-width: 700px;
+        height: 500px;
+    }
 }
