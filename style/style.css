@@ -116,7 +116,7 @@ body {
 
 .question-answeker.active img {
     transform: rotate(180deg);
-    transition: .5s ease-in-out;
+    transition: all .5s ease-in;
 }
 
 .answer p {
